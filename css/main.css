@@ -63,16 +63,16 @@ p{
   width: 100%;
 }
 
-.card1 {
-  background-color:#8bd3d6;
-
-}
-
 .card {
   text-align: center;
   background-color: #8bd3d6;
   text-decoration: none;
-  color: #000;
+}
+
+.card2 {
+  text-align: center;
+  background-color:red;
+  text-decoration: none;
 }
 
 .buttonright {
@@ -88,6 +88,23 @@ p{
   bottom: 45%;
   width: 3%;
 }
+
+.left {
+  position: left;
+  padding-left: 3em;
+  font-size: .8rem;
+}
+
+.right {
+  position: right;
+  padding-right: 3em;
+  font-size: .8rem;
+}
+
+.align {
+  text-align: left;
+}
+
 
 a {
   color: #000;
