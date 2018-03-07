@@ -51,3 +51,33 @@ p{
   width: 100%;
   display: inline;
 }
+
+.large {
+  display: none;
+}
+
+.small {
+  width: 100%;
+}
+
+.card1 {
+  background-color:#8bd3d6;
+
+}
+
+@media only screen and (min-width:38em) {
+
+}
+
+@media only screen and (min-width:60em) {
+
+  .small {
+    display: none;
+    width: 100%;
+  }
+
+  .large {
+    display: grid;
+  }
+
+}
