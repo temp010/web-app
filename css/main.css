@@ -135,4 +135,12 @@ a {
     display: grid;
   }
 
+  #weekly {
+    overflow-y: auto;
+  }
+
+  .weather {
+    max-height: 100vh;
+  }
+
 }
