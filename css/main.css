@@ -28,7 +28,6 @@ p{
   max-width: 100%;
 }
 
-
 .banner {
   position: relative;
   text-align: center;
@@ -74,6 +73,20 @@ p{
   background-color: #8bd3d6;
   text-decoration: none;
   color: #000;
+}
+
+.buttonright {
+  position: absolute;
+  right: 3%;
+  bottom: 45%;
+  width: 3%;
+}
+
+.buttonleft {
+  position: absolute;
+  left: 3%;
+  bottom: 45%;
+  width: 3%;
 }
 
 a {
