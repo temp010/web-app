@@ -28,7 +28,6 @@ p{
   max-width: 100%;
 }
 
-
 .banner {
   position: relative;
   text-align: center;
@@ -64,22 +63,62 @@ p{
   width: 100%;
 }
 
-.card1 {
-  background-color:#8bd3d6;
-
-}
-
 .card {
   text-align: center;
-  background-color: #8bd3d6;
+  background-color: #f8ffff;
   text-decoration: none;
-  color: #000;
 }
+
+.card2 {
+  text-align: center;
+  background-color:#e4f0f4;
+  text-decoration: none;
+}
+
+.buttonright {
+  position: absolute;
+  right: 3%;
+  bottom: 45%;
+  width: 3%;
+}
+
+.buttonleft {
+  position: absolute;
+  left: 3%;
+  bottom: 45%;
+  width: 3%;
+}
+
+.left {
+  position: left;
+  padding-left: 3em;
+  font-size: .8rem;
+}
+
+.right {
+  position: right;
+  padding-right: 3em;
+  font-size: .8rem;
+}
+
+.align {
+  text-align: left;
+}
+
 
 a {
   color: #000;
   text-decoration: none;
 }
+
+.weektemp {
+  text-align: right;
+  color: red;
+  float: right;
+  font-size: 4rem;
+  padding-top: .5rem;
+}
+
 
 @media only screen and (min-width:38em) {
 
@@ -94,6 +133,14 @@ a {
 
   .large {
     display: grid;
+  }
+
+  #weekly {
+    overflow-y: auto;
+  }
+
+  .weather {
+    max-height: 100vh;
   }
 
 }
