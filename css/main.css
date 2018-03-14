@@ -4,7 +4,7 @@ html {
 
 h1 {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: right;
 }
 
@@ -123,7 +123,8 @@ a {
 }
 
 .three {
-  padding-left: 2em;
+  padding-left: 3em;
+  font-size: 1rem;
 }
 
 @media only screen and (min-width:38em) {
