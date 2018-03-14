@@ -10,10 +10,13 @@ h1 {
 
 h2 {
   font-family: 'Monserrat', sans-serif;
+  font-weight: 100;
 }
 
 h3 {
   font-family: 'Monserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 p{
@@ -27,7 +30,6 @@ p{
 .img {
   max-width: 100%;
 }
-
 
 .banner {
   position: relative;
@@ -64,21 +66,60 @@ p{
   width: 100%;
 }
 
-.card1 {
-  background-color:#8bd3d6;
-
-}
-
 .card {
   text-align: center;
-  background-color: #8bd3d6;
+  background-color: #f8ffff;
   text-decoration: none;
-  color: #000;
+}
+
+.card2 {
+  text-align: center;
+  background-color:#e4f0f4;
+  text-decoration: none;
+}
+
+.buttonright {
+  position: absolute;
+  right: 3%;
+  bottom: 45%;
+  width: 3%;
+}
+
+.buttonleft {
+  position: absolute;
+  left: 3%;
+  bottom: 45%;
+  width: 3%;
+}
+
+.left {
+  position: left;
+  padding-left: 3em;
+  font-size: .8rem;
+}
+
+.right {
+  position: right;
+  padding-right: 3em;
+  font-size: .8rem;
+}
+
+.align {
+  text-align: left;
 }
 
 a {
   color: #000;
   text-decoration: none;
+}
+
+.weektemp {
+  text-align: right;
+  color: red;
+  float: right;
+  font-size: 4rem;
+  padding-top: .5rem;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 @media only screen and (min-width:38em) {
@@ -94,6 +135,35 @@ a {
 
   .large {
     display: grid;
+  }
+
+  #weekly {
+    overflow-y: auto;
+  }
+
+  .weather {
+    max-height: 100vh;
+  }
+
+  .city {
+    font-size: 4em;
+    padding-left: 0.5em;
+  }
+
+  .cityl {
+    font-size: 4em;
+    padding-left: 2.5em;
+  }
+
+  .cityo {
+    font-size: 4em;
+    padding-left: 2em;
+  }
+
+  .bottom {
+    background-color: #e9534e;
+    padding-top:1em;
+    text-align: center;
   }
 
 }
